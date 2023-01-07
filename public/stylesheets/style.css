@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.fontclr{
+  color: white;
+}
+.fontFam{
+  font-size: 6em;
+  font-weight: bold;
+  font-weight: bold;
+  font-family: 'Tangerine', serif;
+}

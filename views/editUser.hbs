@@ -1,0 +1,30 @@
+<h1 class="fontclr fontFam">Edit User</h1>
+
+<form action="/admin/editUser/{{_id}}" method="post">
+    <div class="row my-3">
+        <label for="name" class="col-md-2 col-form-label fontclr">Current Name : </label>
+        <div class="col-md-3">
+            {{!-- <input type="text" name="oldName" class="form-control" id="name" value="{{name}}"> --}}
+            <p class="pt-2 fontclr">{{name}}</p>
+        </div>
+
+        <label for="newName" class="col-md-2 col-form-label fontclr">New Name:</label>
+        <div class="col-md-3">
+            <input type="text" name="newName" class="form-control" id="newName">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="data" class="col-md-2 col-form-label fontclr">Current data : </label>
+        <div class="col-md-3">
+            {{!-- <textarea type="text" id="data" class="form-control" name="oldData">{{data}}</textarea> --}}
+            <p class="pt-2 fontclr">{{data}}</p>
+        </div>
+        <label for="newData" class="col-md-2 col-form-label fontclr">New data</label>
+        <div class="col-md-3">
+            <textarea type="text" id="newData" class="form-control" name="newData"></textarea>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-success">Update</button>
+
+</form>
